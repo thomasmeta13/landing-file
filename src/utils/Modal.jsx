@@ -51,7 +51,7 @@ function Modal({
       {/* Modal dialog */}
       <Transition
         id={id}
-        className="fixed inset-0 z-50 overflow-hidden flex items-center justify-center transform px-4 sm:px-6"
+        className="fixed h-[100vh] inset-0 z-50 overflow-hidden flex items-center justify-center transform px-4 sm:px-6"
         role="dialog"
         aria-modal="true"
         aria-labelledby={ariaLabel}
@@ -63,7 +63,7 @@ function Modal({
         leaveStart="opacity-100 scale-100"
         leaveEnd="opacity-0 scale-95"
       >
-        <div className="bg-white overflow-auto max-w-6xl w-full max-h-full" ref={modalContent}>          
+        <div className="bg-white h-[100vh] overflow-auto max-w-6xl w-full max-h-full" ref={modalContent}>          
           {children}
         </div>
       </Transition>    
