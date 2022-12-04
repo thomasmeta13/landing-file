@@ -38,7 +38,7 @@ function Newsletter() {
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
 
               {/* CTA content */}
-              <div className="text-center lg:text-left lg:max-w-xl">
+              <div className="text-center lg:text-left lg:max-w-xl" id="business">
                 <h3 className="h3 text-white mb-2">Powering your business</h3>
                 <p className="text-gray-300 text-lg mb-6">Get in contact with us to get customized pricing and offers.</p>
 

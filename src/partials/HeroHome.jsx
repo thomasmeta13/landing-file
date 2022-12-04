@@ -39,7 +39,7 @@ function HeroHome() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Your all in one space for your DAO. A more immersive GUI.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get in contact</a>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#business">Get in contact</a>
                 </div>
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
@@ -87,7 +87,7 @@ function HeroHome() {
             {/* Modal */}
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
-                <iframe className="absolute w-full  h-[100vh]" src="https://solarity-new-frontend.vercel.app/experience/invitation/7769e9e6821744cdc92b0c3f299dd59d" title="Demo" allowFullScreen></iframe>
+                <iframe className="absolute w-full  h-[100vh]l" src="https://solarity-new-frontend.vercel.app/experience/invitation/7769e9e6821744cdc92b0c3f299dd59d" title="Demo" allowFullScreen></iframe>
               </div>
             </Modal>
 
