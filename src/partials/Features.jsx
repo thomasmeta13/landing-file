@@ -35,7 +35,7 @@ function Features() {
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" id="learnmore">
             <h1 className="h2 mb-4">More engagement for your DAOs </h1>
             <p className="text-xl text-gray-600">With webXR we are unleashing the power of more immersive coordination and communications inside DAOs.</p>
           </div>
@@ -47,7 +47,7 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">The All in one DAO space</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <p className="text-xl text-gray-600">Interactive web-based digital room could improve governance of decentralized autonomous organizations (DAOs) by providing a user-friendly platform for participation and engagement.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
